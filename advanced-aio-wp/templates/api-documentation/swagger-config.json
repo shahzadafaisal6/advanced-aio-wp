@@ -1,0 +1,24 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Advanced_AIO_WP API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/aio/v1/text/generate": {
+      "post": {
+        "summary": "Generate AI text",
+        "parameters": [
+          {
+            "name": "prompt",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
